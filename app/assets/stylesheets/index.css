@@ -1,0 +1,44 @@
+/* メイン */
+.inner {
+  height: 100%;
+  width: 100%;
+  background-image:linear-gradient(-45deg, #dfdfdf 25%, #f9f8f7 25%, #f9f8f7 50%, #dfdfdf  50%, #dfdfdf 75%, #f9f8f7 75%, #f9f8f7);
+}
+
+.card__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.card {
+  width: calc((100% - 50px) / 3);
+  margin-bottom: 40px;
+  margin: 100px;
+}
+
+.card__img {
+  margin-bottom: 16px;
+  height: 400px;
+  width: 460px;
+
+}
+
+.card__title {
+  display: block;
+  font-size: 25px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.card__summary {
+  font-size: 20px;
+}
+
+.card__user {
+  display: block;
+  font-size: 18px;
+  text-align: right;
+  text-decoration: underline;
+}

@@ -1,2 +1,18 @@
-<h1>Posts#index</h1>
-<p>Find me in app/views/posts/index.html.erb</p>
+<main class="main">
+  <div class="inner">
+    <div class="card__wrapper" >
+      <% @posts.each do |post|%>
+        <div class="card">
+          <%= link_to image_tag(post.image, class: :card__img ), post_path(post.id) %>
+          <div class="card__body">
+            <%= link_to post.title, "#", class: :card__title %>
+            <p class="card__summary">
+              <%= post.text %>
+            </p>
+            <%= link_to (post.user.nickname), "#", class: :card__user %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</main>
