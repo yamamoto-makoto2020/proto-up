@@ -1,0 +1,22 @@
+<div class="contents row">
+  <%= image_tag(@post.image, class: :content_post ) %>
+    <% if user_signed_in? && current_user.id == @post.user_id %>
+      <div class="more">
+        <ul class="more_list">
+          <li>
+            <%= link_to '編集', "#", method: :get, class: :img_edit %>
+          </li>
+          <li>
+            <%= link_to '削除', post_path, method: :delete, class: :img_derete %>
+          </li>
+        </ul>
+      </div>
+    <% end %>
+    <p><%= @post.text %></p>
+    <span class="name">
+      <a href="/users/<%= @post.user.id %>">
+        <span>投稿者</span><%= @post.user.nickname %>
+      </a>
+    </span>
+  </div>
+</div>
