@@ -1,0 +1,56 @@
+.post-image {
+  height: 40px;
+  width: 40px;
+}
+
+.indispensable {
+  background: #ea352d;
+  margin-left: 8px;
+  padding: 3px;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.img {
+  width: 980px;
+  margin: 60px auto;
+  padding: 60px;
+  border: 1px solid #99e099;
+  border-radius: 5px;
+}
+
+.sell-btn-contents {
+  width: 100%;
+  text-align: center;
+}
+
+.sell-btn {
+  background: rgb(37, 177, 37);
+  border: 1px solid #00ff00;
+  color: #fff;
+  width: 100%;
+  height: 50px;
+  font-size: 14px;
+  margin-bottom: 4vh;
+}
+
+.back-btn {
+  background: #aaa;
+  border: 1px solid #aaa;
+  color: #fff;
+  padding: 15px 35%;
+  text-decoration: none;
+}
+
+.error-alert {
+  border: 1px solid #ddd;
+  border-radius: 2px;
+}
+
+.error-message {
+  margin-bottom: 10px;
+  color: #d65f4c;
+  font-size: 16px;
+}

@@ -1,0 +1,41 @@
+<%= form_with(model: @post, local: true) do |f| %>
+  <div class="img">
+    <%= render 'shared/error_messages', model: f.object %>
+    <%# 画像 %>
+    <div class="img-upload">
+      <div class="weight-bold-text">
+        写真
+        <span class="indispensable">必須</span>
+      </div>
+      <div class="click-upload">
+        <p>
+          クリックしてファイルをアップロード
+        </p>
+        <%= f.file_field :image, id:"item-image" %>
+      </div>
+    </div>
+    <%# /画像 %>
+    <%# タイトルと写真の説明 %>
+    <div class="new-items">
+      <div class="weight-bold-text">
+        画像タイトル
+        <span class="indispensable">必須</span>
+      </div>
+      <%= f.text_area :title, class:"items-text", id:"item-name", placeholder:"タイトル（必須 40文字まで)", maxlength:"40" %>
+      <div class="items-explain">
+        <div class="weight-bold-text">
+          画像の工夫点
+          <span class="indispensable">必須</span>
+        </div>
+        <%= f.text_area :text, class:"items-text", id:"item-info", placeholder:"写真の工夫点（必須 1,000文字まで）" ,rows:"7" ,maxlength:"1000" %>
+      </div>
+    </div>
+    <%# /タイトルと写真の説明 %>
+    <%# 下部ボタン %>
+    <div class="sell-btn-contents">
+      <%= f.submit "出品する" ,class:"sell-btn" %>
+      <%=link_to 'もどる', root_path, class:"back-btn" %>
+    </div>
+  </div>
+    <%# /下部ボタン %>
+<% end %>
