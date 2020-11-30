@@ -11,7 +11,10 @@
         <p>
           クリックしてファイルをアップロード
         </p>
-        <%= f.file_field :image, id:"item-image" %>
+        <%= f.file_field :image, id:"post-image" %>
+        <div class="img-post">
+          <span class="img_js", id='img'></span>
+        </div>
       </div>
     </div>
     <%# /画像 %>
