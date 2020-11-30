@@ -1,36 +1,62 @@
-.contents.row {
-  height: 100%;
-  width: 100%;
+/* 詳細ページ */
+.post__wrapper{
+  min-height: calc(100vh - 161px);
+}
+.post__hedding{
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+.post__user{
   display: block;
-  background-image:linear-gradient(-45deg, #dfdfdf 25%, #f9f8f7 25%, #f9f8f7 50%, #dfdfdf  50%, #dfdfdf 75%, #f9f8f7 75%, #f9f8f7);
-}
-
-.content_post {
-  margin-top: 80px;
-  height: 50vh;
-  width: 80vh;
-}
-
-.more {
-  height: 100%;
-  width: 100%;
   font-size: 20px;
+  color: #999;
+  text-align: center;
+  text-decoration: underline;
 }
-
-.more_list {
+.post_image{
+  height: 550px;
+  width: 700px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 16px 0;
 }
 
-.img_edit {
-  background-color: black;
-  color: #00ff00;
+.post_img {
+  height: 100%;
 }
 
-.img_derete {
-  color: red;
+.post__detail{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 8px;
+  font-size: 25px;
 }
-
-.name {
+.detail__title{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.post__manage{
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+}
+.post__btn{
   display: block;
+  padding: 0.4em 1.6em;
+  font-size: 12px;
+  color: #999;
+  text-decoration: none;
+  user-select: none;
+  border: 1px #999 solid;
+  border-radius: 3px;
+  transition: 0.4s ease;
+  margin: 0 4px;
+}
+.post__btn:hover{
+  color: #fff;
+  background: #999;
 }

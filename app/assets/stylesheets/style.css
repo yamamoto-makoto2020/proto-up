@@ -48,6 +48,10 @@ a {
   color: #666;
 }
 
+.img {
+  background-image:linear-gradient(-45deg, #dfdfdf 25%, #f9f8f7 25%, #f9f8f7 50%, #dfdfdf  50%, #dfdfdf 75%, #f9f8f7 75%, #f9f8f7);
+}
+
 .btn,
 header.header div.header__bar.row div.grid-6 a.post {
   padding: 8px 20px;
@@ -66,7 +70,6 @@ header.header div.header__bar.row div.grid-6 a.post:hover {
   color: #9bdbf2;
 }
 
-/* ユーザー名のプルダウン */
 header.header .user_nav span:after {
   content: '◀︎';
   font-size: 20px;
