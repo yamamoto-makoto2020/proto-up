@@ -2,7 +2,7 @@
   <div class="inner">
     <div class="form__wrapper">
       <%= form_with(model: @post, local: true) do |f|%>
-        <div class="field">
+        <div class="field-top">
           <%= f.label :title, "タイトル" %><br />
           <%= f.text_field :title %>
         </div>
@@ -15,7 +15,7 @@
           </div>
         </div>
 
-        <div class="field">
+        <div class="field-bottom">
           <%= f.label :text, "テキスト" %><br />
           <%= f.text_area :text, class: :form__text %>
         </div>
