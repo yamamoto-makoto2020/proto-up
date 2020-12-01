@@ -1,0 +1,34 @@
+.form__wrapper{
+  height: 100%;
+  width: 100%;
+  display: block;
+  justify-content: center;
+}
+
+.field{
+  height: 20vh;
+  margin: 25px 200px;
+  padding: 25px 10px;
+  border: 2px solid black;
+}
+
+.field-center {
+  height: 20%;
+  width: 72.2%;
+  border: 2px solid black;
+  margin: 25px 200px;
+  padding: 25px 10px;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+}
+
+.form__btn{
+  background-color:  rgb(37, 177, 37);
+  border: 1px solid #00ff00;
+  margin-bottom: 30px;
+  width: 350px;
+  justify-content: center;
+}
