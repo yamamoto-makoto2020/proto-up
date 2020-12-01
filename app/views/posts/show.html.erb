@@ -7,7 +7,7 @@
       <%= link_to (@post.user.nickname), "#", class: :post__user %>
       <% if user_signed_in? && current_user.id == @post.user.id %>
         <div class="post__manage">
-          <%= link_to "編集する", "#", class: :post__btn %>
+          <%= link_to "編集する",  edit_post_path, class: :post__btn %>
           <%= link_to "削除する", post_path(@post.id), method: :delete, class: :post__btn %>
         </div>
       <% end %>
