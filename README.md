@@ -1,10 +1,20 @@
 <h3>アプリケーション名:   Proto-Up</h3>
 
-アプリケーション概要: ユーザー登録ができ画像を投稿できる
+<h3>開発日数</h3
+ 2020年11月23日 ~ 開発中<br>
+ 日/時間　　8時間<br>
+ 
+ <h3>開発言語<h3>
+ <h6>言語・バージョン</h6><br>
+    Ruby/Rails 6.0.0<br>
+ <h6>フロント<h6><br>
+    HTML/CSS/JavaScript
+ <h6>テスト実装<h6><br>
+    RSpec/Factory.Bot<br>
+ <h6>実装Gem<h6>
+    devise/rspec_rails/factory_bot_rails/mini_magick/image_processing<br>
+    rubocop/faker<br>
 
-URL:
-
-テスト用アカウント:
 
 利用方法: ユーザー新規登録を行ってもらい、右上に投稿ボタンが出るのでクリックすることで投稿することができる
 
