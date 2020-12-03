@@ -8,14 +8,14 @@
  -------------------------------------
  <h1>開発言語</h1>
 <dt>言語・バージョン</dt>
-<dd>Ruby/Rails 6.0.0</dd>
+  <dd>Ruby/Rails 6.0.0</dd>
 <dt>フロント</dt>
-<dd>HTML/CSS/JavaScript</dd>
+  <dd>HTML/CSS/JavaScript</dd>
 <dt>テスト実装</dt>
-<dd>RSpec/Factory.Bot</dd>
+  <dd>RSpec/Factory.Bot</dd>
 <dt>実装Gem</dt>
-<dd>devise/rspec_rails/factory_bot_rails/mini_magick/image_processing</dd>
-<dd>rubocop/faker</dd>
+  <dd>devise/rspec_rails/factory_bot_rails/mini_magick/image_processing</dd>
+  <dd>rubocop/faker</dd>
 
 
 利用方法: ユーザー新規登録を行ってもらい、右上に投稿ボタンが出るのでクリックすることで投稿することができる
