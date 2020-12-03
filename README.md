@@ -1,5 +1,5 @@
 <h1>アプリケーション名:   Proto-Up</h1><br>
- 
+ ---
 
 <h1>開発日数</h1>
  2020年11月23日 ~ 開発中<br>
@@ -9,9 +9,13 @@
  <h1>開発言語</h1>
 <bl>
   <dt>言語・バージョン</dt>
+ 
   ><dd>Ruby/Rails 6.0.0</dd>
+  
   <dt>フロント</dt>
+  
   ><dd>HTML/CSS/JavaScript</dd>
+  
   <dt>テスト実装</dt>
   ><dd>RSpec/Factory.Bot</dd>
   <dt>実装Gem</dt>
