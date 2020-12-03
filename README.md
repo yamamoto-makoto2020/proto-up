@@ -17,10 +17,15 @@
   ><dd>HTML/CSS/JavaScript</dd>
   
   <dt>テスト実装</dt>
+  
   ><dd>RSpec/Factory.Bot</dd>
+  
   <dt>実装Gem</dt>
+  
+  
   ><dd>devise/rspec_rails/factory_bot_rails/mini_magick/image_processing</dd>
   ><dd>rubocop/faker</dd>
+  
 </bl>
 
 
