@@ -1,0 +1,17 @@
+.post__comments {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 30px 90px;
+}
+
+.comments_lists {
+  width: 100vw;
+  margin: 0 80px;
+  background-color: white;
+}
+
+.comments_list {
+  padding: 20px 40px;
+  color: black;
+}
