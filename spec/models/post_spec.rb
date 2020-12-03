@@ -30,7 +30,7 @@ RSpec.describe Post, type: :model do
       it 'userが紐付いていないと保存できないこと' do
         @post.user = nil
         @post.valid?
-        expect(@post.errors.full_messages).to include("User must exist")   
+        expect(@post.errors.full_messages).to include('User must exist')
       end
     end
   end
