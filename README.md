@@ -1,21 +1,21 @@
-<h3>アプリケーション名:   Proto-Up</h3>
----------------------------------------
+<h1>アプリケーション名:   Proto-Up</h1><br>
+ 
 
-<h3>開発日数</h3>
+<h1>開発日数</h1>
  2020年11月23日 ~ 開発中<br>
  日/時間　　8時間<br>
  
  -------------------------------------
- <h3>開発言語</h3>
- <h4>言語・バージョン</h4><br>
-    Ruby/Rails 6.0.0<br>
- <h4>フロント</h4><br>
-    HTML/CSS/JavaScript
- <h4>テスト実装</h4><br>
-    RSpec/Factory.Bot<br>
- <h4>実装Gem</h4>
-    devise/rspec_rails/factory_bot_rails/mini_magick/image_processing<br>
-    rubocop/faker<br>
+ <h1>開発言語</h1>
+<dt>言語・バージョン</dt>
+<dd>Ruby/Rails 6.0.0</dd>
+<dt>フロント</dt>
+<dd>HTML/CSS/JavaScript</dd>
+<dt>テスト実装</dt>
+<dd>RSpec/Factory.Bot</dd>
+<dt>実装Gem</dt>
+<dd>devise/rspec_rails/factory_bot_rails/mini_magick/image_processing</dd>
+<dd>rubocop/faker</dd>
 
 
 利用方法: ユーザー新規登録を行ってもらい、右上に投稿ボタンが出るのでクリックすることで投稿することができる
