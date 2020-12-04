@@ -1,6 +1,6 @@
 <h1>アプリケーション名:   Proto-Up</h1><br>
 
-<img width="1440" alt="スクリーンショット 2020-11-23 14 43 53" src="https://user-images.githubusercontent.com/72425802/101112351-6ec21a80-3620-11eb-9163-bcf2b4ef8c57.png">
+<img width="440" alt="スクリーンショット 2020-11-23 14 43 53" src="https://user-images.githubusercontent.com/72425802/101112351-6ec21a80-3620-11eb-9163-bcf2b4ef8c57.png">
 
  -------------------------------------
 <h1>機能</h1>
