@@ -1,11 +1,11 @@
 <h1>アプリケーション名:   Proto-Up</h1><br>
  
  -------------------------------------
-<h3>トップページ</h3><br>
+<h3>■トップページ</h3><br>
 <img width="400" alt="スクリーンショット 2020-12-04 11 10 16" src="https://user-images.githubusercontent.com/72425802/101112996-d2991300-3621-11eb-9660-e91a7a3d4d40.png">
-<h3>新規登録画面</h3><br>
+<h3>■新規登録画面</h3><br>
 <img width="400" alt="スクリーンショット 2020-12-04 11 11 33" src="https://user-images.githubusercontent.com/72425802/101113007-d62c9a00-3621-11eb-807e-9aa4fcd95b15.png">
-<h3>投稿画面</h3><br>
+<h3>■投稿画面</h3><br>
 <img width="400" alt="スクリーンショット 2020-12-04 11 11 56" src="https://user-images.githubusercontent.com/72425802/101113010-d75dc700-3621-11eb-9114-7ca7666590af.png">
 
  -------------------------------------
