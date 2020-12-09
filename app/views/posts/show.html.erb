@@ -14,6 +14,9 @@
       <div class="post_image">
         <%= image_tag @post.image, class: :post_img %>
       </div>
+      <%# <div class="like">
+        <%= render 'post', post: @post %>
+      <%# </div> %> 
       <div class="post__body">
         <div class="post__detail">
           <p class="detail__message">
@@ -23,7 +26,7 @@
       </div>
       <div class="post__comments">
         <%# ログインしているユーザーには以下のコメント投稿フォームを表示する %>
-        <% if current_user %>
+        <% if user_signed_in? %>
           <%= form_with(model: [@post, @comment], local: true) do |f| %>
             <div class="field">
               <%= f.label :text, "コメント" %><br />

@@ -9,6 +9,9 @@
             <p class="card__summary">
               <%= post.text %>
             </p>
+            <div id="post_<%= post.id %>">
+              <%= render 'post', post: post %>
+            </div>
             <%= link_to (post.user.nickname), "#", class: :card__user %>
           </div>
         </div>
