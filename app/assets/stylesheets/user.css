@@ -1,6 +1,10 @@
+.account-page {
+  height: 100%;
+}
+
 .account-page .account-page__inner {
   width: 980px;
-  margin: 60px auto;
+  margin: 90px auto;
   padding: 60px;
   background-image:linear-gradient(-45deg, #dfdfdf 25%, #f9f8f7 25%, #f9f8f7 50%, #dfdfdf  50%, #dfdfdf 75%, #f9f8f7 75%, #f9f8f7);
   border: 1px solid #99e099;
