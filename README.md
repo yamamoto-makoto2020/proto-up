@@ -25,7 +25,7 @@
 <dl>
  <dt>・ユーザー登録機能</dt>
  
- ><dd>nackname,email,passwordを入力する事で登録する事ができる</dd>
+ ><dd>nickname,email,passwordを入力する事で登録する事ができる</dd>
  
  <dt>・画像投稿機能</dt>
  
