@@ -24,7 +24,7 @@
  
  -------------------------------------
 <h3>■トップページ</h3><br>
-<img width="400" alt="スクリーンショット 2020-12-16 11 04 22" src="https://user-images.githubusercontent.com/72425802/102295799-79b96b00-3f8f-11eb-8bb5-d29096541945.png">
+<img width="1000" alt="スクリーンショット 2020-12-16 11 04 22" src="https://user-images.githubusercontent.com/72425802/102295799-79b96b00-3f8f-11eb-8bb5-d29096541945.png">
 <h3>■新規登録画面</h3><br>
 <img width="400" alt="スクリーンショット 2020-12-04 11 11 33" src="https://user-images.githubusercontent.com/72425802/101113007-d62c9a00-3621-11eb-807e-9aa4fcd95b15.png">
 <h3>■投稿画面</h3><br>
