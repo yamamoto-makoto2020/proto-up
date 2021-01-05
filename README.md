@@ -22,6 +22,14 @@
  
  ><dd>https://proto-up.herokuapp.com/</dd>
  
+ ><dd>メールアドレス</dd>
+ 
+ ><dd>sample@sample.com</dd>
+ 
+ ><dd>ログインパスワード</dd>
+ 
+ ><dd>aaaaa1</dd>
+ 
  <dl>
  
  -------------------------------------
