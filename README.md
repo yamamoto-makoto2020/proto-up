@@ -20,15 +20,15 @@
  
  ><dd>現在herokuを使っていますが、今後変更があります。</dd>
  
- ><dd>https://proto-up.herokuapp.com/</dd>
- 
- ><dd>メールアドレス</dd>
+ ><dd>ログイン用メールアドレス</dd>
  
  ><dd>sample@sample.com</dd>
  
  ><dd>ログインパスワード</dd>
  
  ><dd>aaaaa1</dd>
+ 
+ ><dd>https://proto-up.herokuapp.com/</dd>
  
  <dl>
  
