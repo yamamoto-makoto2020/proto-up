@@ -14,6 +14,8 @@ if (document.URL.match( /new/ ) || document.URL.match( /edit/ )) {
       const imageElement = document.createElement('div');
 
       const blobImage = document.createElement('img');
+      blobImage.height = 600;
+      blobImage.width = 850;
       blobImage.setAttribute('src', blob);
       
       imageElement.appendChild(blobImage);

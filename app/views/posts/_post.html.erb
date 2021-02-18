@@ -1,5 +1,10 @@
-<% if current_user.liked_by?(post.id) %>
-  <%= link_to '★', destroy_like_path(post), method: :delete, remote: true, class: :like_delete %> <%= post.likes.count %>
-<% else %>
-  <%= link_to '☆', create_like_path(post), method: :post, remote: true, class: :like_create %> <%= post.likes.count %>
-<% end %>
+<div class="card">
+  <%= link_to image_tag(post.image, class: :card__img ), post_path(post) %>
+  <div class="card__body">
+    <%= link_to post.title, post_path(post), class: :card__title %>
+    <p class="card__summary">
+      <%= post.text %>
+    </p>
+    <%= link_to (post.user.nickname), user_path(post.user), class: :card__user %>
+  </div>
+</div>

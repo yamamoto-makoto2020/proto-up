@@ -8,6 +8,11 @@
   font-weight: bold;
 }
 
+#img {
+  height: 100px;
+  width: 100px;
+}
+
 .img {
   width: 980px;
   margin: 60px auto;

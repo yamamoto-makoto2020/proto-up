@@ -24,7 +24,6 @@
 
 body,
 html {
-  height: 100vh;
   background-color: #f5f5f3;
 }
 
@@ -153,8 +152,7 @@ form textarea {
   font-family: "游ゴシック", "YuGothic";
 }
 
-footer {
-  margin: auto;
+.bottom-bar {
   padding: 10px;
   color: #bbbbbb;
   background-color: #666;
