@@ -1,6 +1,4 @@
 .form__wrapper{
-  height: 100%;
-  width: 100%;
   display: block;
   justify-content: center;
 }
@@ -10,6 +8,10 @@
   margin: 25px 200px;
   padding: 25px 10px;
   border: 2px solid black;
+}
+
+.img-post1 {
+  padding-left: 80px;
 }
 
 .field-center {
@@ -30,6 +32,7 @@
 .actions {
   display: flex;
   justify-content: center;
+  padding-top: 30px;
 }
 
 .form__btn{

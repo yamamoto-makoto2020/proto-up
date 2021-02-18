@@ -1,0 +1,5 @@
+<% if current_user.liked_by?(post.id) %>
+  <%= link_to '★', destroy_like_path(post), method: :delete, remote: true, class: :like_delete %> <%= post.likes.count %>
+<% else %>
+  <%= link_to '☆', create_like_path(post), method: :post, remote: true, class: :like_create %> <%= post.likes.count %>
+<% end %>

@@ -4,7 +4,7 @@
       <p class="post__hedding">
         <%= @post.title %>
       </p>
-      <%= link_to (@post.user.nickname), "#", class: :post__user %>
+      <%= link_to (@post.user.nickname), user_path(@post.user), class: :post__user %>
       <% if user_signed_in? && current_user.id == @post.user.id %>
         <div class="post__manage">
           <%= link_to "編集する",  edit_post_path, class: :post__btn %>
@@ -14,9 +14,6 @@
       <div class="post_image">
         <%= image_tag @post.image, class: :post_img %>
       </div>
-      <%# <div class="like">
-        <%= render 'post', post: @post %>
-      <%# </div> %> 
       <div class="post__body">
         <div class="post__detail">
           <p class="detail__message">
@@ -37,6 +34,7 @@
             </div>
           <% end %> 
         <% end %>
+        <%# // ログインしているユーザーには以下のコメント投稿フォームを表示する %>
         <ul class="comments_lists">
           <%# 投稿に紐づくコメントを一覧する処理を記述する %>
             <li class="comments_list">

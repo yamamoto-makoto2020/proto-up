@@ -1,0 +1,14 @@
+<div class="inner">
+  <div class="user__wrapper">
+    <h2 class="show-heading">
+      <%= "#{@nickname}さんの投稿" %>
+    </h2>
+    <div class="main">
+      <div class="inner">
+        <div class="card__wrapper" >
+          <%= render partial: "posts/post", collection: @user.posts %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
